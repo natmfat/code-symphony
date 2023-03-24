@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Extension: Code Music</title>
+    <script src="https://unpkg.com/@replit/extensions@0.28.2/dist/index.global.js" defer></script>
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        <p id="app__playing">Enjoy the symphony of code!</p>
+        <input id="app__input" placeholder="script.js" />
+        <button id="app__button">start</button>
+        <p>How this works</p>
+        <ul>
+          <li>1. Fetch main.js & parse it into an ast</li>
+          <li>2. Convert each block type into a sound</li>
+          <li>3. Play the sounds!</li>
+        </ul>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

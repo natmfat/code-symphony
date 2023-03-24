@@ -1,0 +1,14 @@
+{
+  "name": "vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "acorn": "^8.8.2",
+    "tone": "^14.7.77",
+    "vite": "^4.1.1"
+  }
+}
